@@ -14,7 +14,7 @@ spec:
         app: springapp
     spec:
       containers:
-      - image: yogeswardocker/spring-boot-mongo:1
+      - image: yogeswardocker/spring-boot-mongo-docker
         name: springappcontainer
         ports:
         - containerPort: 8080
