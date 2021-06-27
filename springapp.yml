@@ -23,7 +23,7 @@ spec:
           value: mongo
         - name: MONGO_DB_USERNAME
           value: devdb
-        - name : MONGO_DB_PASSWORD
+        - name: MONGO_DB_PASSWORD
           value: devdb@123
 ---
 apiVersion: v1
